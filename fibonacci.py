@@ -1,11 +1,11 @@
 n=int(input("enter a no."))
-a=0
+num=0
 b=1
-print(a)
+print(num)
 print(b)
 for i in range(1,n+1):
-    c=a+b
-    a=b
+    c=num+b
+    num=b
     b=c
     print(c)
         
